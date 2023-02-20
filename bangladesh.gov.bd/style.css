@@ -1,0 +1,172 @@
+/*
+Theme Name: Bangladesh.gov.bd
+Author: Tania Akter
+Author URI: https://wordpress.org/
+Description:
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+Text Domain: bangladesh.gov.bd
+*/
+body{
+    background:url("./assets/images/bg_main.gif") center;
+}
+.cont{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.topbar{
+    background-color: #9E5BBA;
+    height: 30px;
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+    border-bottom: 1px solid red;
+}
+.top-right a{
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+   
+}
+/* logo part start */
+.logo{
+    height: 110px;
+    padding-left: 15px;
+}
+.logo-left{
+    line-height: 110px;
+}
+.logo_right_top{
+    background-color:#8CC643;
+    color: white;
+    height: 35px;
+}
+.top_menu span{
+    font-size: 25px;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.top_menu p{
+    font-size: 10px;
+    padding-top: 3px;
+    padding-right: 13px;
+}
+.top_menu{
+    border-right: 1px solid white;
+    box-shadow: 0 1px rgb(122, 27, 122);
+}
+.top_menu:hover{
+    background-color: rgb(223, 15, 15);
+}
+
+.logo_right_bottom{
+    height: 70px;
+}
+.xx{
+    padding-top: 20px;
+}
+.logo_right_bottom_search{
+    padding-top: 10px;
+  }
+  .logo_right_bottom_search input{
+      width: 70%;
+      border: 1px solid rgb(204, 190, 190);
+      border-radius: 5px;
+      font-size: 12px;
+      padding: 5px;
+  }
+.logo_right_bottom_search button{
+      border: 1px solid rgb(204, 191, 191);
+      border-radius: 5px;
+      font-size: 12px;
+      padding: 5px;
+}
+.logo_right_bottom_right1{
+    border-right: 1px solid #ddd;
+    padding-right: 7px;
+    margin-right: 7px;
+}
+.logo_right_bottom_right2 p{
+    height: 4px;
+    font-size: 11px;
+    font-weight: 700;
+}
+/* menu part start */
+.menubar a{
+    font-size: 14px;
+   background-color: #ECECEB;
+    border-right: 1px solid rgb(228, 216, 216);
+
+}
+/* hero part start */
+.banner img{
+    border: 2px solid red;
+    padding: 10px;
+}
+form select{
+    width: 75%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 13px;
+    background: #ddd;
+    border-radius: 5px;
+}
+form button{
+    width: 20%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 13px;
+    background: #ddd;
+    border-radius: 5px;
+}
+.side_video h5{
+    background: green;
+    color: #fff;
+    padding: 5px;
+}
+.side_video h6{
+    font-size: 14px;
+    padding: 5px;
+}
+.side_video img{
+    height: 200px;
+}
+.list ul{
+    list-style: none;
+}
+.list ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    border-bottom: 1px solid green;
+    padding-bottom: 2px;
+}
+.list ul li a:hover{
+    color: green;
+}
+.list h5{
+    font-size: 14px;
+    color: purple;
+}
+.bottom_video h5{
+    background: green;
+    color: #fff;
+    padding: 5px;
+}
+/* footer part start */
+.footer_bottom{
+    font-size: 14px;
+
+}
+/* dynamic part */
+.navbar-nav a{
+        text-decoration: none;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-right: 1px solid #CACAC9;
+        font-size: 15px;
+}
+
